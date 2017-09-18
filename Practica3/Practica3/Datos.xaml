@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3.Datos">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Datos Capturados" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding nom}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding ap}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding dire}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding tele}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding car}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding se}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding mat}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding cor}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding gith}" VerticalOptions="Center" HorizontalOptions="Center"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

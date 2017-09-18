@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3.InicioDetail"
+             Title="Detail">
+  <StackLayout Padding="10">
+        <Label Text="Datos Personales"/>
+        
+        <Entry x:Name="nom" Placeholder="Nombre"></Entry>
+        <Entry x:Name="ap" Placeholder="Apellidos"></Entry>
+        <Entry x:Name="dir" Placeholder="Direccion"></Entry>
+        <Entry x:Name="tel" Placeholder="telefono" Keyboard="Numeric"></Entry>
+        <Label Text="Datos Escolares"/>
+        <Entry x:Name="carre" Placeholder="Carrera"/>
+        <Entry x:Name="sem" Placeholder="Semestre"/>
+        <Entry x:Name="mat" Placeholder="Matricula" Keyboard="Numeric"></Entry>
+        <Label Text="Datos Sociales"/>
+        <Entry x:Name="cor" Placeholder="Correo"/>
+        <Entry x:Name="git" Placeholder="GitHub"/>
+      
+<!--        <Button Text="Guardar Datos" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Small" BackgroundColor="Cyan" Clicked="Button_Clicked"></Button>-->
+        <Button Text="Habilitar Controles" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Small" BackgroundColor="Cyan" Clicked="Button_Clicked_1"></Button>
+        <Button Text="Guardar Datos" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Small" BackgroundColor="Cyan" Clicked="Button_Clicked_2"></Button>
+
+    </StackLayout>
+</ContentPage>
